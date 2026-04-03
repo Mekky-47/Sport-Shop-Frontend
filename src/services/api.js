@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://sportshop.xo.je/api', // Laravel standard local port
+  baseURL: 'https://sportshop.xo.je/index.php/api', // Laravel standard local port
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
